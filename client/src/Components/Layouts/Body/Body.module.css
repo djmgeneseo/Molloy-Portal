@@ -1,7 +1,7 @@
 .bodyContainer {
     max-width: '1300px';
     padding: 25px 2% 25px 2%;
-    min-height: 500px;
+    min-height: 550px;
     background-color: #efefef7a;
 }
 
@@ -9,18 +9,19 @@ img {
     /*width: 100%;*/
 }
 
-.cardsContainer {
-  /*margin-left: 15% !important;*/
-}
+.cardContent {
+    margin: auto;
+    text-align: center;
+  }
 
 .media {
     /* object-fit: 'cover', */
-    width: 40% !important;
+    width: 45% !important;
     /* border-bottom: rgb(218, 218, 218) solid 1px; */
 }
 
 .card {
-    margin: 5%;
+    margin: 2% 4%;
     /*max-width: 70%; */
     display: flex;
 }
@@ -40,9 +41,34 @@ img {
     transition: 700ms;
 }
 
+.linkLabel {
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .linkLabel {
+    font-size: 22px;
+  }
+
+  .cardContent {
+    margin: auto;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 960px) {
   .bodyContainer {
     padding: 25px 10% 25px 10%;
+  }
+
+  .media {
+    /* object-fit: 'cover', */
+    width: 35% !important;
+    /* border-bottom: rgb(218, 218, 218) solid 1px; */
+  }
+
+  .linkLabel {
+    font-size: 24px;
   }
 
   .card {

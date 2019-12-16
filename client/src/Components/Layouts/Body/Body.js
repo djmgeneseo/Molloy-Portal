@@ -14,12 +14,12 @@ const employeeSection = {
         img: require('../../../assets/outlook.jpg'),
         p: "Employees at Molloy can access their email via Microsoft Office 365. Click here and login to access your '@molloy.edu' employee email account."
     },
-    'MFA Registration Instructions': {
+    'MFA Registration': {
         href: 'https://molloycollege.app.box.com/s/cds7cygk6yleah0jb4js4rr1mvl5uyt0',
         img: require('../../../assets/mfa.png'),
         p: "Employees can setup a Multi-Factor Authentication process for their email accounts. Click here for detailed instructions."
     },
-    'Molloy Ticketing System': {
+    'Ticketing System': {
         href: 'https://help.molloy.edu/',
         img: require('../../../assets/ticketing.png'),
         p: "Employees can login here to submit work orders and IT requests online."
@@ -34,7 +34,7 @@ const employeeSection = {
         img: require('../../../assets/lionsden.png'),
         p: "Employees can login to Lions Den to access information related to their academics, finances, course registration, etc."
     }, 
-    'Employee Password Reset': {
+    'Password Reset': {
         href: 'https://aka.ms/sspr',
         img: require('../../../assets/employee_password_reset.png'),
         p: "Unable to access your employee email? Click here and follow the prompts to reset your employee email password."
@@ -57,7 +57,7 @@ const studentSection = {
       img: require('../../../assets/lionsden.png'),
       p: "Students can click here and login to access their student information related to their academics, finances, course registration, etc."
   },   
-  'Student Password Reset': {
+  'Password Reset': {
     href: 'https://selfservice.molloy.edu',
     img: require('../../../assets/self_service.png'),
     p: "Unable to access your student email? Click here and follow the prompts to reset your student email password."
@@ -65,9 +65,14 @@ const studentSection = {
 }
 
 const generateCards = (sectionObj) => {
+  /*
+    <p>
+                                  {sectionObj[siteName].p}
+                                </p>
+  */
     return Object.keys(sectionObj).map((siteName) => {
         return (
-        <Grid key={siteName} item xs={12} sm={12} md={12} className={styles.cardsContainer}>
+        <Grid key={siteName} item xs={12} sm={12} md={12} lg={6} className={styles.cardsContainer}>
             <Slide direction="up" in={true} timeout={{enter: 900, exit: 0}}>
                 <Card className={styles.card} >
                     <CardActionArea target='_blank' rel='noopener noreferrer' href={sectionObj[siteName].href}>
@@ -81,10 +86,7 @@ const generateCards = (sectionObj) => {
                               title={siteName}
                               />
                               <div className={styles.cardContent}> 
-                                <h2 style={{marginTop: '0px'}}>{siteName}</h2>
-                                <p>
-                                  {sectionObj[siteName].p}
-                                </p>  
+                                <h4 className={styles.linkLabel}>{siteName}</h4>
                               </div>
                         </div>
                     </CardActionArea>
@@ -100,13 +102,17 @@ const Body = () => {
   <Grid container className={styles.bodyContainer}>
     <Grid item xs={12} sm={12} md={6}>
       <h1 style={{textAlign: "center"}}>Students</h1>
-      <hr style={{width: '80%'}}/>
-      {generateCards(studentSection)}
+        <hr style={{width: '80%'}}/>
+      <Grid container justify="center">
+        {generateCards(studentSection)}
+      </Grid>
     </Grid>
     <Grid item xs={12} sm={12} md={6}>
       <h1 style={{textAlign: "center"}}>Employees</h1>
-      <hr  style={{width: '80%'}}/>
-      {generateCards(employeeSection)}
+        <hr  style={{width: '80%'}}/>
+      <Grid container justify="center">
+        {generateCards(employeeSection)}
+      </Grid>
     </Grid>
   </Grid>
   )
