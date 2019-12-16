@@ -1,0 +1,1 @@
+- Already downloaded react-icons npm...Import respective icons for the footer

@@ -1,0 +1,22 @@
+.navbar {
+    min-height: 108px;
+}
+
+.headerContainer {
+    max-width: '1300px';
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15% 0 15%;
+}
+
+.navbarInverse {
+    background-color: #000000;
+    background-image: none;
+    margin-bottom: 0;
+}
+
+.headerLogo {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+}
