@@ -6,7 +6,7 @@ import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Slide from '@material-ui/core/Slide';
+import Grow from '@material-ui/core/Grow';
 
 const employeeSection = {
     'Employee Email': {
@@ -73,7 +73,7 @@ const generateCards = (sectionObj) => {
     return Object.keys(sectionObj).map((siteName) => {
         return (
         <Grid key={siteName} item xs={12} sm={12} md={12} lg={6} className={styles.cardsContainer}>
-            <Slide direction="up" in={true} timeout={{enter: 900, exit: 0}}>
+            <Grow direction="up" in={true} timeout={{enter: 900, exit: 0}}>
                 <Card className={styles.card} >
                     <CardActionArea target='_blank' rel='noopener noreferrer' href={sectionObj[siteName].href}>
                         <div className={styles.cardLayout}>
@@ -91,7 +91,7 @@ const generateCards = (sectionObj) => {
                         </div>
                     </CardActionArea>
                 </Card>
-             </Slide>
+             </Grow>
         </Grid>
         )
     })
