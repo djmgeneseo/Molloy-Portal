@@ -21,7 +21,7 @@ const employeeSection = {
     },
     'ADP Payroll and Tax Services': {
       href: 'https://workforcenow.adp.com',
-      img: require('../../../assets/'),
+      img: require('../../../assets/adp.png'),
       p: ""
     },
     'Ticketing System': {
