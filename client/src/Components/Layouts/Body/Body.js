@@ -19,10 +19,10 @@ const employeeSection = {
         img: require('../../../assets/mfa.png'),
         p: "Employees can setup a Multi-Factor Authentication process for their email accounts. Click here for detailed instructions."
     },
-    'ADP Payroll and Tax Services': {
+    'ADP Payroll': {
       href: 'https://workforcenow.adp.com',
       img: require('../../../assets/adp.png'),
-      p: ""
+      p: "n/a"
     },
     'Ticketing System': {
         href: 'https://help.molloy.edu/',
