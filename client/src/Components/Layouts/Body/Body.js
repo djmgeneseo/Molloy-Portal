@@ -14,6 +14,21 @@ const employeeSection = {
         img: require('../../../assets/outlook.jpg'),
         p: "Employees at Molloy can access their email via Microsoft Office 365. Click here and login to access your '@molloy.edu' employee email account."
     },
+    'LogMeIn': {
+      href: 'https://www.logmein.com/home2',
+      img: require('../../../assets/logmein.png'),
+      p: ""
+    },
+    'GoToMyPC': {
+      href: 'https://www.gotomypc.com/',
+      img: require('../../../assets/gotomypc.png'),
+      p: ""
+    },
+    'Zoom': {
+      href: 'https://zoom.us/',
+      img: require('../../../assets/zoom.png'),
+      p: ""
+    },
     'MFA Registration': {
         href: 'https://molloycollege.app.box.com/s/cds7cygk6yleah0jb4js4rr1mvl5uyt0',
         img: require('../../../assets/mfa.png'),
