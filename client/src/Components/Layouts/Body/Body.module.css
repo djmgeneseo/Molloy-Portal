@@ -17,6 +17,7 @@ img {
 .media {
     /* object-fit: 'cover', */
     width: 45% !important;
+    height: 100%;
     /* border-bottom: rgb(218, 218, 218) solid 1px; */
 }
 

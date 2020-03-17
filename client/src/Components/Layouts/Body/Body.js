@@ -19,7 +19,7 @@ const employeeSection = {
         img: require('../../../assets/mfa.png'),
         p: "Employees can setup a Multi-Factor Authentication process for their email accounts. Click here for detailed instructions."
     },
-    'ADP Payroll': {
+    'ADP Workforce Now': {
       href: 'https://workforcenow.adp.com',
       img: require('../../../assets/adp.png'),
       p: "n/a"
