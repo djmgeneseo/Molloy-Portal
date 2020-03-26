@@ -67,6 +67,11 @@ const studentSection = {
     img: require('../../../assets/gmail_logo.jpg'),
     p: "Molloy students can access their email via Google's Gmail. Click here and login to access your '@lions.molloy.edu' student email account."
   },
+  "Office 365": {
+    href: 'https://www.office.com',
+    img: require('../../../assets/portal.png'),
+    p: ''
+  },
   'Canvas': {
     href: 'https://molloy.instructure.com',
     img: require('../../../assets/canvas.png'),
