@@ -15,7 +15,7 @@ const employeeSection = {
         p: "Employees at Molloy can access their email via Microsoft Office 365. Click here and login to access your '@molloy.edu' employee email account."
     },
     'LogMeIn': {
-      href: 'https://www.logmein.com/home2',
+      href: 'https://accounts.logme.in/login.aspx',
       img: require('../../../assets/logmein.png'),
       p: ""
     },
@@ -69,7 +69,7 @@ const studentSection = {
   },
   "Office 365": {
     href: 'https://www.office.com',
-    img: require('../../../assets/portal.png'),
+    img: require('../../../assets/office.png'),
     p: ''
   },
   'Canvas': {
