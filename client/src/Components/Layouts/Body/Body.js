@@ -39,6 +39,11 @@ const employeeSection = {
       img: require('../../../assets/adp.png'),
       p: "n/a"
     },
+    'Ad Astra': {
+      href: 'https://www.aaiscloud.com/MolloyC',
+      img: require('../../../assets/astra_logo.png'),
+      p: "Employees can access Ad Astra here."
+    },
     'Ticketing System': {
         href: 'https://help.molloy.edu/',
         img: require('../../../assets/ticketing.png'),
