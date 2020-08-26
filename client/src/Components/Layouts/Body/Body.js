@@ -63,7 +63,12 @@ const employeeSection = {
         href: 'https://aka.ms/sspr',
         img: require('../../../assets/employee_password_reset.png'),
         p: "Unable to access your employee email? Click here and follow the prompts to reset your employee email password."
-    }
+    },
+    'COVID-19 Symptom Questionnaire': {
+      href: 'https://blogs.molloy.edu/covid-19-questionnaire',
+      img: require('../../../assets/covid_questionnaire.png'),
+      p: "This form must be filled out before each visit to Molloy's campuses."
+    },
 }
 
 const studentSection = {
