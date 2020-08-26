@@ -91,7 +91,17 @@ const studentSection = {
     href: 'https://selfservice.molloy.edu',
     img: require('../../../assets/self_service.png'),
     p: "Unable to access your student email? Click here and follow the prompts to reset your student email password."
-  }
+  },
+  'COVID-19 Symptom Questionnaire': {
+    href: 'https://blogs.molloy.edu/covid-19-questionnaire',
+    img: require('../../../assets/covid_questionnaire.png'),
+    p: "This form must be filled out before each visit to Molloy's campuses."
+  },
+  'Stay Safe Pledge': {
+    href: 'https://blogs.molloy.edu/stay-safe-pledge',
+    img: require('../../../assets/stay_safe_pledge.png'),
+    p: "All students must fill out this form once before entering campus."
+  },
 }
 
 const generateCards = (sectionObj) => {
