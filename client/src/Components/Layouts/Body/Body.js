@@ -69,6 +69,11 @@ const employeeSection = {
       img: require('../../../assets/covid_questionnaire.png'),
       p: "This form must be filled out before each visit to Molloy's campuses."
     },
+    'Wi-Fi Instructions': {
+      href: 'https://molloycollege.box.com/s/mji7o7gmk25tr11gu4u4ywxo740ukv34',
+      img: require('../../../assets/employee_wifi.png'),
+      p: "How to add the Wi-Fi networks to your Windows 10 PC."
+    },
 }
 
 const studentSection = {
@@ -106,6 +111,11 @@ const studentSection = {
     href: 'https://blogs.molloy.edu/stay-safe-pledge',
     img: require('../../../assets/stay_safe_pledge.png'),
     p: "All students must fill out this form once before entering campus."
+  },
+  'Wi-Fi Instructions': {
+    href: 'https://molloycollege.box.com/s/ck43wpnh82ualol4qsoxuhe4n5kvqr3r',
+    img: require('../../../assets/student_wifi.png'),
+    p: "How to add the Wi-Fi networks to your Windows 10 PC."
   },
 }
 
