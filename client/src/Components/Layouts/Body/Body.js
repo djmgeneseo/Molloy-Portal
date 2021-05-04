@@ -74,6 +74,11 @@ const employeeSection = {
       img: require('../../../assets/employee_wifi.png'),
       p: "How to add the Wi-Fi networks to your Windows 10 PC."
     },
+    'Health Portal': {
+      href: 'https://molloy.studenthealthportal.com/',
+      img: require('../../../assets/Health-Heart-Stethoscope.jpg'),
+      p: "."
+    },
 }
 
 const studentSection = {
@@ -116,6 +121,11 @@ const studentSection = {
     href: 'https://molloycollege.box.com/s/ck43wpnh82ualol4qsoxuhe4n5kvqr3r',
     img: require('../../../assets/student_wifi.png'),
     p: "How to add the Wi-Fi networks to your Windows 10 PC."
+  },
+  'Health Portal': {
+    href: 'https://molloy.studenthealthportal.com/',
+    img: require('../../../assets/Health-Heart-Stethoscope.jpg'),
+    p: "."
   },
 }
 
