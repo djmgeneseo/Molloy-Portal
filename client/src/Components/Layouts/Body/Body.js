@@ -9,6 +9,16 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Grow from '@material-ui/core/Grow';
 
 const employeeSection = {
+    'COVID-19 Symptom Questionnaire': {
+      href: 'https://blogs.molloy.edu/covid-19-questionnaire',
+      img: require('../../../assets/covid_questionnaire.png'),
+      p: "This form must be filled out before each visit to Molloy's campuses."
+    },
+    'Health Portal': {
+      href: 'https://molloy.studenthealthportal.com/',
+      img: require('../../../assets/Health-Heart-Stethoscope.jpg'),
+      p: "."
+    },
     'Employee Email': {
         href: 'https://www.office.com',
         img: require('../../../assets/outlook.jpg'),
@@ -64,24 +74,24 @@ const employeeSection = {
         img: require('../../../assets/employee_password_reset.png'),
         p: "Unable to access your employee email? Click here and follow the prompts to reset your employee email password."
     },
-    'COVID-19 Symptom Questionnaire': {
-      href: 'https://blogs.molloy.edu/covid-19-questionnaire',
-      img: require('../../../assets/covid_questionnaire.png'),
-      p: "This form must be filled out before each visit to Molloy's campuses."
-    },
     'Wi-Fi Instructions': {
       href: 'https://molloycollege.box.com/s/mji7o7gmk25tr11gu4u4ywxo740ukv34',
       img: require('../../../assets/employee_wifi.png'),
       p: "How to add the Wi-Fi networks to your Windows 10 PC."
     },
-    'Health Portal': {
-      href: 'https://molloy.studenthealthportal.com/',
-      img: require('../../../assets/Health-Heart-Stethoscope.jpg'),
-      p: "."
-    },
 }
 
 const studentSection = {
+  'COVID-19 Symptom Questionnaire': {
+    href: 'https://blogs.molloy.edu/covid-19-questionnaire',
+    img: require('../../../assets/covid_questionnaire.png'),
+    p: "This form must be filled out before each visit to Molloy's campuses."
+  },
+  'Health Portal': {
+    href: 'https://molloy.studenthealthportal.com/',
+    img: require('../../../assets/Health-Heart-Stethoscope.jpg'),
+    p: "."
+  },
   "Student Email": {
     href: 'https://accounts.google.com',
     img: require('../../../assets/gmail_logo.jpg'),
@@ -107,11 +117,6 @@ const studentSection = {
     img: require('../../../assets/self_service.png'),
     p: "Unable to access your student email? Click here and follow the prompts to reset your student email password."
   },
-  'COVID-19 Symptom Questionnaire': {
-    href: 'https://blogs.molloy.edu/covid-19-questionnaire',
-    img: require('../../../assets/covid_questionnaire.png'),
-    p: "This form must be filled out before each visit to Molloy's campuses."
-  },
   'Stay Safe Pledge': {
     href: 'https://blogs.molloy.edu/stay-safe-pledge',
     img: require('../../../assets/stay_safe_pledge.png'),
@@ -121,11 +126,6 @@ const studentSection = {
     href: 'https://molloycollege.box.com/s/ck43wpnh82ualol4qsoxuhe4n5kvqr3r',
     img: require('../../../assets/student_wifi.png'),
     p: "How to add the Wi-Fi networks to your Windows 10 PC."
-  },
-  'Health Portal': {
-    href: 'https://molloy.studenthealthportal.com/',
-    img: require('../../../assets/Health-Heart-Stethoscope.jpg'),
-    p: "."
   },
 }
 
