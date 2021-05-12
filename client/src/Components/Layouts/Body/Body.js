@@ -79,6 +79,11 @@ const employeeSection = {
       img: require('../../../assets/employee_wifi.png'),
       p: "How to add the Wi-Fi networks to your Windows 10 PC."
     },
+    'Chalk & Wire Collective Review': {
+      href: 'https://ep.chalkandwire.com/ep2_molloy/login.aspx?cus=151',
+      img: require('../../../assets/chalkwire.png'),
+      p: "Assessment Service for Faculty."
+    }
 }
 
 const studentSection = {
