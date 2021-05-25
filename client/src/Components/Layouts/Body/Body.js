@@ -54,7 +54,7 @@ const employeeSection = {
       img: require('../../../assets/astra_logo.png'),
       p: "Employees can access Ad Astra here."
     },
-    'Ticketing System': {
+    'IT Support': {
         href: 'https://help.molloy.edu/',
         img: require('../../../assets/ticketing.png'),
         p: "Employees can login here to submit work orders and IT requests online."
@@ -122,6 +122,11 @@ const studentSection = {
     img: require('../../../assets/self_service.png'),
     p: "Unable to access your student email? Click here and follow the prompts to reset your student email password."
   },
+  'IT Support': {
+        href: 'https://help.molloy.edu/',
+        img: require('../../../assets/ticketing.png'),
+        p: "Students can login here to submit work orders and IT requests online."
+    },
   'Stay Safe Pledge': {
     href: 'https://blogs.molloy.edu/stay-safe-pledge',
     img: require('../../../assets/stay_safe_pledge.png'),
