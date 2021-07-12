@@ -83,6 +83,11 @@ const employeeSection = {
       href: 'https://ep.chalkandwire.com/ep2_molloy/login.aspx?cus=151',
       img: require('../../../assets/chalkwire.png'),
       p: "Assessment Service for Faculty."
+    },
+    'Accessibility Programs': {
+      href: 'https://molloy-accommodate.symplicity.com/',
+      img: require('../../../assets/Mural.jpg'),
+      p: "Accessibility Services"
     }
 }
 
@@ -137,6 +142,11 @@ const studentSection = {
     img: require('../../../assets/student_wifi.png'),
     p: "How to add the Wi-Fi networks to your Windows 10 PC."
   },
+  'Accessibility Programs': {
+    href: 'https://molloy-accommodate.symplicity.com/',
+    img: require('../../../assets/Mural.jpg'),
+    p: "Accessibility Services"
+  }
 }
 
 const generateCards = (sectionObj) => {
