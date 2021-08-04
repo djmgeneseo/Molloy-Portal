@@ -79,15 +79,20 @@ const employeeSection = {
       img: require('../../../assets/employee_wifi.png'),
       p: "How to add the Wi-Fi networks to your Windows 10 PC."
     },
+    'Mobile Wi-Fi Instructions': {
+      href: 'https://www.molloy.edu/about-molloy-college/offices-and-services/office-for-technology-and-institutional-effectiveness/technology-support-services/guides-and-online-help/employee-and-student-wifi-setup-for-mobile-devices',
+      img: require('../../../assets/mobile_wifi.png'),
+      p: "How to add your mobile phone to Molloy's WiFi"
+    },
     'Chalk & Wire Collective Review': {
       href: 'https://ep.chalkandwire.com/ep2_molloy/login.aspx?cus=151',
       img: require('../../../assets/chalkwire.png'),
       p: "Assessment Service for Faculty."
     },
-    'Accessibility Programs': {
+    'ACCOMMODATE - Center for Access and Disability': {
       href: 'https://molloy-accommodate.symplicity.com/',
       img: require('../../../assets/Mural.jpg'),
-      p: "Accessibility Services"
+      p: "ACCOMMODATE Center for Access and Disability"
     }
 }
 
@@ -142,10 +147,15 @@ const studentSection = {
     img: require('../../../assets/student_wifi.png'),
     p: "How to add the Wi-Fi networks to your Windows 10 PC."
   },
-  'Accessibility Programs': {
+  'Mobile Wi-Fi Instructions': {
+    href: 'https://www.molloy.edu/about-molloy-college/offices-and-services/office-for-technology-and-institutional-effectiveness/technology-support-services/guides-and-online-help/employee-and-student-wifi-setup-for-mobile-devices',
+    img: require('../../../assets/mobile_wifi.png'),
+    p: "How to add your mobile phone to Molloy's WiFi"
+  },
+  'ACCOMMODATE - Center for Access and Disability': {
     href: 'https://molloy-accommodate.symplicity.com/',
     img: require('../../../assets/Mural.jpg'),
-    p: "Accessibility Services"
+    p: "ACCOMMODATE Center for Access and Disability"
   }
 }
 
