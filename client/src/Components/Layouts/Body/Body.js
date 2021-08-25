@@ -34,6 +34,11 @@ const employeeSection = {
       img: require('../../../assets/gotomypc.png'),
       p: ""
     },
+    'Data Requests': {
+      href: 'https://forms.office.com/Pages/ResponsePage.aspx?id=bSl5yj94AEmWHqscc8qGjqxd9CP44nBNnzHY3svIy9RUQTZPQUdMUEk0V1FHUEJVUFJQM1gwREE4NS4u',
+      img: require('../../../assets/data_requests.png'),
+      p: ""
+    },
     'Zoom': {
       href: 'https://zoom.us/',
       img: require('../../../assets/zoom.png'),
