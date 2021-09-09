@@ -85,7 +85,7 @@ const employeeSection = {
       p: "How to add the Wi-Fi networks to your Windows 10 PC."
     },
     'Mobile Wi-Fi Instructions': {
-      href: 'https://www.molloy.edu/about-molloy-college/offices-and-services/office-for-technology-and-institutional-effectiveness/technology-support-services/guides-and-online-help/employee-and-student-wifi-setup-for-mobile-devices',
+      href: 'https://molloycollege.box.com/s/2ml6era11csfxeu4hk29wzc7j322l0oi',
       img: require('../../../assets/mobile_wifi.png'),
       p: "How to add your mobile phone to Molloy's WiFi"
     },
@@ -153,7 +153,7 @@ const studentSection = {
     p: "How to add the Wi-Fi networks to your Windows 10 PC."
   },
   'Mobile Wi-Fi Instructions': {
-    href: 'https://www.molloy.edu/about-molloy-college/offices-and-services/office-for-technology-and-institutional-effectiveness/technology-support-services/guides-and-online-help/employee-and-student-wifi-setup-for-mobile-devices',
+    href: 'https://molloycollege.box.com/s/2ml6era11csfxeu4hk29wzc7j322l0oi',
     img: require('../../../assets/mobile_wifi.png'),
     p: "How to add your mobile phone to Molloy's WiFi"
   },
