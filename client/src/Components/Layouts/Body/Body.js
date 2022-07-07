@@ -161,6 +161,11 @@ const studentSection = {
     href: 'https://molloy-accommodate.symplicity.com/',
     img: require('../../../assets/Mural.jpg'),
     p: "ACCOMMODATE Center for Access and Disability"
+  },
+  'Beacon': {
+    href: 'https://molloy-accommodate.symplicity.com/',
+    img: require('../../../assets/beacon.jpg'),
+    p: "Beacon for Students"
   }
 }
 
